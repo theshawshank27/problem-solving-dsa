@@ -1,3 +1,5 @@
+package thread;
+
 import java.io.*;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
@@ -20,6 +22,7 @@ public class GrepSimulator {
             System.out.println("The provided path does not exist");
             return;
         }
+
 
         ExecutorService executor = Executors.newFixedThreadPool(Runtime.getRuntime().availableProcessors());
         searchFiles(fileOrDirectory, inputTextSearch, executor);
