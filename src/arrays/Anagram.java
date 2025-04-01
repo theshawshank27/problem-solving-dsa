@@ -1,4 +1,4 @@
-package Arrays;
+package arrays;
 //{ Driver Code Starts
 import java.io.*;
 import java.lang.*;
